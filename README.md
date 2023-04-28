@@ -14,15 +14,15 @@ Using that model and generating a OpenAI-Key for ownself this full-stack AI appl
 
 Clone the Repository
 ```sh
-git clone https://github.com/huntabyte/chatty
+git clone https://github.com/Siba-Prasad-Pattnaik/Optimus-AI-based-ChatBot)
 ```
 
-Create a .env file within the same directory created 
+Create a .env file within the same directory created and add your openAI key into it.
 ```sh
 cd chatty && touch .env
 echo OPENAI_KEY=<YOUR_API_KEY_HERE> >> .env
 ```
-NOTE: You need to do the above metioned step if the API key already provided here doesn't work.
+NOTE: You can get your open AI key from : https://platform.openai.com/account/api-keys
 
 Install dependencies & start the dev server
 ```sh
